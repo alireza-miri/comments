@@ -37,7 +37,7 @@ function App() {
                   onChange={(e) => setText(e.target.value)}
                 />
                 <Button 
-                className="ms-2"
+                className="ms-2 p-2"
                   variant="warning"
                   onClick={() => {
                     dispatch(changeTitle(index, text));
